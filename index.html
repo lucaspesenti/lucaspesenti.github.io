@@ -8,19 +8,18 @@
 				font-family: sans-serif;
 				margin:30px 30px 30px 30px;
 				width:1000px;
-				
-    				/* margin-top:100px;
-    				margin-left:200px;
-   				margin-right:200px;
-    				margin-bottom:100px;-*/
-				line-height: 150%
+				line-height: 160%
 			}
 		</style>
   	</head>
 	<body>
 		<h1>Lucas Pesenti</h1>
+
+		<img src="profile.jpg" width = "400" height = "500">
+
 		<p>
-        	I am a third-year Ph.D. student in Statistics and Computer Science at <a href="https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/">Bocconi University</a>, advised by <a href="https://lucatrevisan.github.io/">Luca Trevisan</a>. 
+		I am a fourth-year Ph.D. student in Statistics and Computer Science at <a href="https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/">Bocconi University</a>. I was advised by <a href="https://lucatrevisan.github.io/">Luca Trevisan</a>, and I am now advised
+		by <a href="https://laurasanita.github.io/">Laura Sanità</a> and co-advised by <a href="https://www.cs.princeton.edu/~kothari/">Pravesh Kothari</a>.
 		Before that, I studied at <a href="https://www.ens.psl.eu/en">École Normale Supérieure de Paris</a> and got my M.Sc. in Computer Science from
 		the <a href="https://wikimpri.dptinfo.ens-cachan.fr/doku.php">Parisian Master of Research in Computer Science</a>.
 		</p>
@@ -28,12 +27,37 @@
 		I am broadly interested in theoretical computer science, with a preference for approximation algorithms and applications of continuous methods to discrete mathematics. 
 		</p>
 
+		<h2>News</h2>
+
+		<p>
+		I am planning to visit Princeton University from January to May 2025. Feel free to write me if you are in the area and would like to discuss.
+		</p>
+		<p>
+		I am currently <b>looking for a postdoc</b>, starting from September 2025 or January 2026.
+		</p>
+
 		<h2>Papers</h2>
-		<ul>
-			<li><a href="https://arxiv.org/abs/2404.07881"><em>Diagram Analysis of Iterative Algorithms</em></a>. <br/>Chris Jones, Lucas Pesenti.</li>
-			<li><a href="https://arxiv.org/abs/2310.00393"><em>New SDP Roundings and Certifiable Approximation for Cubic Optimization</em></a>.<br/>Tim Hsieh, Pravesh Kothari, Lucas Pesenti, Luca Trevisan.<br/> SODA 2024 (<a href="Slides_SODA_2024.pdf">Slides</a>)</li> 
-			<li><a href="https://arxiv.org/abs/2211.05509"><em>Discrepancy Minimization via Regularization</em></a>. <br/>Lucas Pesenti, Adrian Vladu. <br/>SODA 2023 (<a href="Slides_SODA_2023.pdf">Slides</a>)</li>
-		</ul>
+		<p>
+		1. <b><a href="https://arxiv.org/abs/2404.07881">Diagram Analysis of Iterative Algorithms</a></b> with <a href ="https://chrisjones.space/">Chris Jones</a>.
+		<br/> <em>in submission</em>
+
+		</p>
+
+		We study a broad class of nonlinear iterative algorithms applied to random matrices, including power iteration, belief propagation, approximate message passing, and various forms of gradient descent. We show that the behavior of these algorithms can be analyzed by expanding their iterates in an appropriate basis of polynomials, which we call the Fourier diagram basis. As the dimension of the input grows, this basis simplifies to the tree-shaped diagrams, that form a family of asymptotically independent Gaussian vectors. Moreover, the dynamics of the iteration restricted to the tree diagrams exhibit properties reminiscent of the assumptions of the cavity method from statistical physics. This enables us to "implement" heuristic cavity-based reasoning into rigorous arguments, including a new simple proof of the state evolution formula.
+		<p>
+		2. <a href="https://arxiv.org/abs/2310.00393"><b>New SDP Roundings and Certifiable Approximation for Cubic Optimization</b></a> with <a href="https://jthsieh.github.io/">Tim Hsieh</a>, <a href="https://www.cs.princeton.edu/~kothari/">Pravesh Kothari</a>, and <a href="https://lucatrevisan.github.io/">Luca Trevisan</a>.
+			<br/> in <em>SODA 2024</em> (<a href="Slides_SODA_2024.pdf">Slides</a>)
+		</p>
+
+    	We give new rounding schemes for SDP relaxations for the problems of maximizing cubic polynomials over the hypercube. They match the guarantee of a search algorithm of Khot and Naor that obtains a similar approximation ratio via techniques from convex geometry. Unlike their method, our algorithm obtains an upper bound on the integrality gap of SDP relaxations for the problem and as a result, also yields a certificate on the optimum value of the input instance.
+
+    Our main motivation is the stark lack of rounding techniques for SDP relaxations of higher degree polynomial optimization in sharp contrast to a rich theory of SDP roundings for the quadratic case. Our rounding algorithms introduce two new ideas: 1) a new polynomial reweighting based method to round sum-of-squares relaxations of higher degree polynomial maximization problems, and 2) a general technique to compress such relaxations down to substantially smaller SDPs by relying on an explicit construction of certain hitting sets.
+		<p>
+		3. <a href="https://arxiv.org/abs/2211.05509"><b>Discrepancy Minimization via Regularization</b></a> with <a href="https://www.adrianvladu.org/">Adrian Vladu</a>. 
+		<br/>in <em> SODA 2023</em> (<a href="Slides_SODA_2023.pdf">Slides</a>)
+		</p>
+
+		     We introduce a new algorithmic framework for discrepancy minimization based on regularization. We demonstrate how varying the regularizer allows us to re-interpret several breakthrough works in algorithmic discrepancy, ranging from Spencer's theorem [Spencer 1985, Bansal 2010] to Banaszczyk's bounds [Banaszczyk 1998, Bansal-Dadush-Garg 2016]. Using our techniques, we also show that the Beck-Fiala and Komlós conjectures are true in a new regime of pseudorandom instances.
 
 		<h2>Contact</h2>
 		<b>Email:</b> lucas dot pesenti at phd dot unibocconi dot it<br/>
