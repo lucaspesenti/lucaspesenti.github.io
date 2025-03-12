@@ -7,6 +7,10 @@ body {
 	padding-right: 50px;
 }
 
+h2 {
+	margin: 20px 0px 20px 0px
+}
+
 .next {
 	display: flex;
 	align-items: center;
@@ -15,11 +19,10 @@ body {
 .right {
 	padding-top: 15px;
 	padding-left: 25px;
-	margin: auto;
 }
 
 .undertitle {
-	padding-left: 20px
+	padding-left: 0px
 }
 
 .text-block {
@@ -47,11 +50,6 @@ body {
      border-left:1px solid #aaa;
      border-right:1px solid #aaa;
      height: 30px;
-}
-
-
-p {
-	margin-bottom: 25px
 }
 
 a {
