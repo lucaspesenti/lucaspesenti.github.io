@@ -32,8 +32,6 @@ h2 {
 	display: flex;
 	justify-content: center;
 	gap: 20px;
-	align-items: center;
-	flex-wrap: wrap;
 }
 
 .contact-links a {
