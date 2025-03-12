@@ -21,10 +21,6 @@ h2 {
 	padding-left: 25px;
 }
 
-.undertitle {
-	padding-left: 0px
-}
-
 .text-block {
 	background: #f8f9fa;
 	margin: 10px 0px 15px 0px;
@@ -33,23 +29,23 @@ h2 {
 }
 
 .contact-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .contact-links a {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
 }
 
 .separator {
-     border-left:1px solid #aaa;
-     border-right:1px solid #aaa;
-     height: 30px;
+	border-left:1px solid #aaa;
+	border-right:1px solid #aaa;
+	height: 30px;
 }
 
 a {
