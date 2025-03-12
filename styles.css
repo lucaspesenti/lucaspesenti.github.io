@@ -25,29 +25,18 @@ body {
 .text-block {
 	background: #f8f9fa;
 	padding: 15px;
-	border-radius: 6px; /* Slightly rounded corners for a smooth look */
+	border-radius: 6px;
 }
 
 .contact-links {
     display: flex;
-    justify-content: center; /* Center align */
-    gap: 10px; /* Space between items */
+    justify-content: center;
+    gap: 10px;
     margin-top: 10px;
 }
 
-.contact-item {
-}
-
-.contact-item:hover {
-}
-
 .separator {
-    color: #aaa; /* Subtle separator */
-}
-
-.button {
-	padding-left: 10px;
-	padding-right: 10px;
+    color: #aaa;
 }
 
 p {
@@ -62,6 +51,3 @@ a:link           { color: #0000e6 }
 a:visited        { color: #0000e6 }
 a:hover, a:focus { color: #000080 }
 a:active         { color: #00c }
-
-
-
