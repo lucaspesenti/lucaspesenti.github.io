@@ -221,52 +221,42 @@ a:active {
 }
 
 @media (max-width: 700px) {
+    .thumbnail {
+        display: none;
+    }
+
     body {
         padding: 18px;
     }
 
     .intro {
         flex-direction: column;
-        align-items: flex-start;
-    }
+        align-items: center;
+	}
 
     .profile-picture {
-        width: min(300px, 100%);
+        width: min(230px, 70vw);
+        height: auto;
     }
 
     .text-block {
         width: 100%;
+		text-align: left;
     }
 
     .paper {
         grid-template-columns: 1fr;
-        gap: 10px;
+        gap: 0;
         margin-bottom: 34px;
     }
 
-    .thumbnail {
-        width: 100%;
-        height: auto;
-        min-height: 0;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-
-    .thumbnail img {
-        max-width: 100px;
-        max-height: 110px;
-    }
-}
-
-@media (max-width: 440px) {
-    .contact-links {
+    .paper-links {
+        display: flex;
         flex-wrap: wrap;
-        gap: 14px;
+        gap: 2px 14px;
     }
 
-    .contact-links a + a {
-        margin-left: 0;
-        padding-left: 0;
-        border-left: 0;
+    .paper-links a + a::before {
+        content: none;
     }
 }
